@@ -55,7 +55,7 @@ body{
 }
 
 .header .svgstyle{
-	padding-top:  3px;
+	padding-top:  10px;
 }
 
 .menuitem{
@@ -185,10 +185,16 @@ body{
 	margin-bottom: 64px;
 }
 
+.downloadcv a{
+	cursor: unset;
+}
+
 .dcvholder{
-	height: 44px;
-	width: 140px;
-	overflow: hidden;
+	position: relative;
+  width: 140px;
+  height: 44px;
+  transition: .6s;
+  overflow: hidden;
 }
 
 .dcvholder svg{
@@ -279,6 +285,7 @@ body{
 }
 
 .project_i2 .viewcasestudy{
+	display: inline-block;
 	cursor: pointer;
 	margin-top: 16px;
 	font-family: Inter;
@@ -521,3 +528,65 @@ body{
 .dcvholder:hover svg rect, .homebtn:hover svg rect, .social a:hover svg rect{
 	fill: var(--blue-hover);
 }
+
+.shinybtn{
+  position: relative;
+  transition: .6s;
+  overflow: hidden;
+  border:  0px;
+  margin:  0px;
+  padding:  0px;
+}
+
+.shinybtn:focus{
+	outline: 0;
+}
+
+.shinybtn::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,1);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-100px)  skewX(-15deg);
+}
+
+.shinybtn::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,0.7);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100px) skewX(-15deg);
+}
+
+.shinybtn:hover::before{
+   transform: translateX(300px)  skewX(-15deg);  
+   opacity: 0.6;
+   transition: 0.7s;
+}
+
+.shinybtn:hover::after{
+   transform: translateX(300px) skewX(-15deg);  
+   opacity: 1;
+   transition: 0.7s;
+}
+
+.shinybtn svg rect{
+	fill : black;
+}
+
+.shinybtn:hover svg rect{
+    fill: #2962ff;    
+    transition: 0.7s;
+} 
