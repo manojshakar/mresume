@@ -83,7 +83,7 @@ body{
 
 .selected{
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 20px;
 	color: #00B96B;
@@ -157,7 +157,7 @@ body{
 .description a{
 	text-decoration: none;
 	color:  #00B96B;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .cvfill{
@@ -216,7 +216,7 @@ body{
 
 	font-family: Inter;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 20px;
 	/* identical to box height, or 143% */
@@ -248,7 +248,7 @@ body{
 
 .selectedprojects{
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
 	margin-bottom: 16px;
@@ -278,7 +278,7 @@ body{
 	text-align: left;
 	font-family: Inter;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
 	margin-bottom: 8px;
@@ -290,7 +290,7 @@ body{
 	margin-top: 16px;
 	font-family: Inter;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 24px;
 	color: #00B96B;
@@ -313,7 +313,7 @@ body{
 	text-align: left;
 	font-family: Inter;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
 }
@@ -373,7 +373,7 @@ body{
 .connect{
 	margin-top: 128px;
 	text-align: center;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
 	color: #333333;
@@ -396,7 +396,7 @@ body{
 .reachoutvia{
 	font-family: Inter;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 18px;
 	color:  #00B96B;
@@ -481,7 +481,7 @@ body{
 
 .content-heading{
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 24px;
 	line-height: 20px;
 	color: #333333;
