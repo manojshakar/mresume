@@ -511,7 +511,7 @@ body{
 }
 
 /*** back to home ***/
-.b2home{
+.b2home, .b2oprojects {
 	display: none;
 	margin-top: 64px;
 	align-content: center;
@@ -525,7 +525,15 @@ body{
 	overflow: hidden;
 }
 
-.dcvholder:hover svg rect, .homebtn:hover svg rect, .social a:hover svg rect{
+.oprojectsbtn{
+	margin:  auto;
+	width: 158px;
+	cursor: pointer;
+	height: 44px;
+	overflow: hidden;
+}
+
+.dcvholder:hover svg rect, .homebtn:hover svg rect, .oprojectsbtn:hover svg rect, .social a:hover svg rect{
 	fill: var(--blue-hover);
 }
 
@@ -534,7 +542,7 @@ body{
   transition: .6s;
   overflow: hidden;
   border:  0px;
-  margin:  0px;
+   /*margin:  0px;*/
   padding:  0px;
 }
 
