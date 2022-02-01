@@ -17,12 +17,6 @@ function isProjectsPage(){
 	var html_name = parts[parts.length-1]
 	return html_name == projects_page;
 }
-function isOtherProjectsPage(){
-	var parts = window.location.href.split("/")
-	var html_name = parts[parts.length-1]
-	html_name = html_name.split("?")[0]
-	return new RegExp('op[a-zA-Z0-9]{0,9}.html').test(html_name)
-}
 
 function toggle_menu(){
 	
@@ -40,12 +34,9 @@ function toggle_menu(){
 } 
 
 function preloadStuffs(){
-	if(!(isIndexPage() || isAboutPage() || isProjectsPage() || isOtherProjectsPage())){
+	if(!(isIndexPage() || isAboutPage() || isProjectsPage())){
 		//show back to home btn
 		$('.b2home').css("display","block")
-	}
-	if(isOtherProjectsPage()){
-		$(".b2oprojects").css("display","block")
 	}
 	$('img').each(function(){
 		var img1 = $(this).attr('src')
@@ -140,17 +131,6 @@ function bodyLoad(){
 
 
 }
-
-function goToHome(){
-	var parts = window.location.href.split("/")
-	var html_name = parts[parts.length-1]
-	var newUrl = ""
-	for(var i=0; i<parts.length-1; i++){
-		newUrl += parts[i]+"/"
-	}newUrl += index_page
-	window.location = newUrl
-}
-
 
 function goToHome(){
 	var parts = window.location.href.split("/")

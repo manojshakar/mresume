@@ -4,7 +4,7 @@
 }
 
 :root{
-	--blue-hover : #00B96B;
+	--blue-hover : #2962FF;
 }
 
 body{
@@ -86,7 +86,7 @@ body{
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 20px;
-	color: #00B96B;
+	color: #2962FF;
 	
 }
 
@@ -114,7 +114,7 @@ body{
 	color: #333333;
 }
 .floatmenuitem .selected{
-	color: #00B96B;
+	color: #2962FF;
 }
 .burger-svg{
 	margin-right: 0px;
@@ -156,7 +156,7 @@ body{
 
 .description a{
 	text-decoration: none;
-	color:  #00B96B;
+	color:  #2962ff;
 	font-weight: 500;
 }
 
@@ -216,7 +216,7 @@ body{
 
 	font-family: Inter;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 14px;
 	line-height: 20px;
 	/* identical to box height, or 143% */
@@ -248,7 +248,7 @@ body{
 
 .selectedprojects{
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 20px;
 	line-height: 24px;
 	margin-bottom: 16px;
@@ -278,7 +278,7 @@ body{
 	text-align: left;
 	font-family: Inter;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 20px;
 	line-height: 24px;
 	margin-bottom: 8px;
@@ -290,10 +290,10 @@ body{
 	margin-top: 16px;
 	font-family: Inter;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 14px;
 	line-height: 24px;
-	color: #00B96B;
+	color: #2962FF;
 }
 .casehref{
 	text-decoration: none;
@@ -313,7 +313,7 @@ body{
 	text-align: left;
 	font-family: Inter;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 20px;
 	line-height: 24px;
 }
@@ -373,7 +373,7 @@ body{
 .connect{
 	margin-top: 128px;
 	text-align: center;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 20px;
 	line-height: 24px;
 	color: #333333;
@@ -399,12 +399,11 @@ body{
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 18px;
-	color:  #00B96B;
+	color:  #2962FF;
 }
 
 .reachoutvia a{
 	text-decoration: none;
-	color: #00B96B;
 }
 
 .social a{
@@ -482,7 +481,7 @@ body{
 
 .content-heading{
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 24px;
 	line-height: 20px;
 	color: #333333;
@@ -512,7 +511,7 @@ body{
 }
 
 /*** back to home ***/
-.b2home, .b2oprojects{
+.b2home{
 	display: none;
 	margin-top: 64px;
 	align-content: center;
@@ -526,15 +525,7 @@ body{
 	overflow: hidden;
 }
 
-.oprojectsbtn{
-	margin:  auto;
-	width: 158px;
-	cursor: pointer;
-	height: 44px;
-	overflow: hidden;
-}
-
-.dcvholder:hover svg rect, .homebtn:hover svg rect, .oprojectsbtn:hover svg rect, .social a:hover svg rect{
+.dcvholder:hover svg rect, .homebtn:hover svg rect, .social a:hover svg rect{
 	fill: var(--blue-hover);
 }
 
@@ -543,7 +534,7 @@ body{
   transition: .6s;
   overflow: hidden;
   border:  0px;
-  /*margin:  0px;*/
+  margin:  0px;
   padding:  0px;
 }
 
@@ -596,7 +587,7 @@ body{
 }
 
 .shinybtn:hover svg rect{
-    fill: #00B96B;    
+    fill: #2962ff;    
     transition: 0.7s;
 } 
 .first_project{

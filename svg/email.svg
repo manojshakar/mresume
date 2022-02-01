@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 19 18" style="enable-background:new 0 0 19 18;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#00B96B;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;}
-</style>
-<path class="st0" d="M3.5,3h12C16.3,3,17,3.7,17,4.5v9c0,0.8-0.7,1.5-1.5,1.5h-12C2.7,15,2,14.3,2,13.5v-9C2,3.7,2.7,3,3.5,3z"/>
-<path class="st0" d="M17,4.5L9.5,9.8L2,4.5"/>
+<svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.5 3H15.5C16.325 3 17 3.675 17 4.5V13.5C17 14.325 16.325 15 15.5 15H3.5C2.675 15 2 14.325 2 13.5V4.5C2 3.675 2.675 3 3.5 3Z" stroke="#2962FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 4.5L9.5 9.75L2 4.5" stroke="#2962FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
